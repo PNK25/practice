@@ -11,7 +11,7 @@ public class Remove_special_character_stringAndnumbear {
 		String f=s.replaceAll("[^0-9]","");
 		System.out.println(g+"  removing special character:  "+f);
 		System.out.println(j+"   removing special character:   "+h);
-
+        System.out.println(g);
 	}
 
 }
