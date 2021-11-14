@@ -1,6 +1,6 @@
 package Small_programsIN_java;
 
-public class PrimeNmbers1to100 {
+public class PrimeNumbers1to100 {
 
 	public static void main(String[] args) {
 		for(int i=1;i<=100;i++) {

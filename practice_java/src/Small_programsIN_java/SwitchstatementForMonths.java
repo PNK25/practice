@@ -6,8 +6,8 @@ public class SwitchstatementForMonths {
 		
 		switch(month) {
 		case"Jan":
-		System.out.println("January");
-		break;
+		  System.out.println("January");
+		  break;
 		case"Feb":
 			System.out.println("February");
 			break;
