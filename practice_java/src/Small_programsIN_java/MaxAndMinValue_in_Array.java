@@ -17,7 +17,7 @@ public class MaxAndMinValue_in_Array {
    	     }	
 	    	}
 	    
-	      System.out.println("maxs value of array :" + max);
+	      System.out.println("max value of array :" + max);
 	      System.out.println("min value of array :" + min);
 	      
 	    }
