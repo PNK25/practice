@@ -3,22 +3,21 @@ package com.roufe;
 public class Myeachcharacter {
 	
 	public void eachcharacter(String str) {
-		str.replace(" ","");
 		
-		char g[]=str.toCharArray();
-		int i=0;
 		
-		while(i<g.length) {
-			int len=str.length();
-		String s=str.replace(""+str.charAt(i),"");
-		int h=s.length();
-		int total=len-h;
 		
 	
-			System.out.println(str.charAt(i)+"  "+total);
-			str.replace(""+str.charAt(i),"");
-			str.substring(i);
-			i++;
+		
+		while(str.length()>0) {
+			 
+		char ch=str.charAt(0);
+		String h=str.replace(""+ch,"");
+		
+		int total=str.length()-h.length();
+		
+		System.out.println(ch+"  "+total);
+		str=str.replace(""+ch,"");
+		
 		}
 		
 		}
@@ -26,7 +25,8 @@ public class Myeachcharacter {
 	
 	public static void main(String[] args) {
 		Myeachcharacter ch=new Myeachcharacter();
-          String str="naveen";
+          String str="naveen naveen";
+         str= str.replace(" ","");
           ch.eachcharacter(str);
 	}
 

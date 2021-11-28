@@ -1,6 +1,6 @@
 package Small_programsIN_java;
 
-public class DimondPatten {
+public class DiamondPattern {
 
 	public static void main(String[] args) {
 			int row=8;
